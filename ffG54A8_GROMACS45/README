@@ -1,0 +1,19 @@
+Instructions for GROMACS versions 4.5.* and 4.6.*:
+-----------------------
+Copy the folder "gromos54a8.ff" to .../gromacs_installation/share/gromacs/top
+
+
+
+Citation:
+-----------------------
+Margreitter, C., Petrov, D., Zagrovic, B.: Vienna-PTM webserver: a toolkit 
+for MD simulations of protein post-translational modifications. Nucleic Acid.
+Res. (2013), doi: 10.1093/nar/gkt416; 
+
+Petrov, D., Margreitter, C., Grandits M., Oostenbrink, C., Zagrovic, B.: 
+Development and verification of force-field parameters for molecular dynamics
+simulations of protein post-translational modifications. PLOS 
+Comput. Biol. (2013), doi: 10.1371/journal.pcbi.1003154;
+
+Margreitter, C., Reif, M., Oostenbrink C.: Update on phosphate
+and charged PTM parameters;
