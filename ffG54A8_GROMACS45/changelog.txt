@@ -1,5 +1,8 @@
+CHANGE LOG 1.9.0 - 2017-05-09
+ o) fixed issue with wrong canonical charged amino acids and non-bonded interactions (54A8) (DP and CM)
+ o) synchronized version numbering
+
 CHANGE LOG 1.7.0 - 2017-01-16
- o) fixed issue with wrong canonical charged amino acids (54A7) (CM)
  o) fixed issue with COO- and NH3+ terminal ends (CM)
 
 CHANGE LOG 1.6.1 - 2016-08-05

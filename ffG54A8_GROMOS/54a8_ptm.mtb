@@ -4,7 +4,7 @@ Force field   : 54A8 (condensed-phase simulations)
 Reference     : Schmid et al. Eur. Biophys. J. 2011, 40, 843-856
                 Petrov et al. PLOS Comput. Biol. 2013, 
                 Reif et al. J. Chem. Theory Comput. 2012, 8, 3705–3723
-                Margreitter et al., in preparation 2016
+                Margreitter et al., J. Comput. Chem. 2016
 File content  : Molecular topology building blocks (post-translation modified amino acids)
 Format        : GROMOS96
 Initial file  : CO, BZ, CM, DP, MG Vienna 2016
@@ -20,9 +20,12 @@ Remark        : This file contains post-translation modified amino acids, see:
                 Petrov, D., Margreitter, C., Grandits M., Oostenbrink, C., Zagrovic, B.: 
                 Development and verification of force-field parameters for molecular dynamics
                 simulations of protein post-translational modifications. PLOS 
-                Comput. Biol. (2013), doi: 10.1371/journal.pcbi.1003154; Margreitter, C., Reif, M., Oostenbrink C.: Update on phosphate
-                and charged PTM parameters;
-                Last update: 2016-08-05
+                Comput. Biol. (2013), doi: 10.1371/journal.pcbi.1003154; Margreitter, C., Reif, M.,
+                Oostenbrink C.: Update on phosphate and charged post-translationally modified amino 
+                acid parameters in the GROMOS force field. J. Comput. Chem. (2017),
+                doi: 10.1002/jcc.24733;
+                Last update: 2017-05-09
+                2017-05-09 (v. 1.9) updated references - synchronized with GROMACS format
                 2016-03-16 (v. 1.6.1) fixed dihedral angles in phosphorylated
                                       residues to proper types 20 and 27;
 Modifications : RMN	omega-N-methylarginine (0)		2013-05-07	2013-05-07
