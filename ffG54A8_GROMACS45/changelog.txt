@@ -1,3 +1,7 @@
+CHANGE LOG 1.10.0 - 2021-09-09
+ o) lysine 2-hydroxyisobutyrylation added (K2B and KB2) (DP)
+ o) synchronized version numbering
+
 CHANGE LOG 1.9.0 - 2017-05-09
  o) fixed issue with wrong canonical charged amino acids and non-bonded interactions (54A8) (DP and CM)
  o) synchronized version numbering

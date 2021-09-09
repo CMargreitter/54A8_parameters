@@ -351,6 +351,14 @@ KHP     3
 1	1	H	N	-C	CA
 1	2	HE1	OE1	CD	CB
 3	4	HZ	NZ	CE2	CD
+K2B    3       
+1	1	H	N	-C	CA
+1	1	HZ	NZ	CE	CH
+1	2	HI1	OI1	CT1	CH
+KB2    3       
+1	1	H	N	-C	CA
+1	1	HZ	NZ	CE	CH
+1	2	HI1	OI1	CT1	CH
 HTY     6       
 1	1	H	N	-C	CA
 1	1	HD1	CD1	CG	CE1

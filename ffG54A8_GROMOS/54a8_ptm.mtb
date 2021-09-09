@@ -92,6 +92,8 @@ Modifications : RMN	omega-N-methylarginine (0)		2013-05-07	2013-05-07
 		K2C	N6,N6-dimethyllysine (+1)		2016-08-05	2016-08-05
 		K3C	N6,N6,N6-trimethyllysine		2016-08-05	2016-08-05
 		K2P	phospholysine (-2)			2013-05-07	2016-03-16
+		K2B	2-hydroxyisobutyryl-lysine (R)		2021-09-07	2021-09-09
+		KB2	2-hydroxyisobutyryl-lysine (S)		2021-09-07	2021-09-09
 		MSX	methionine sulfoxide (R)		2013-05-07	2013-05-07
 		MXS	methionine sulfoxide (S)		2013-05-07	2013-05-07
 		MES	methionine sulfone			2013-05-07	2013-05-07
@@ -4856,6 +4858,240 @@ KHP
 # LJ exceptions
 # NEX
     0
+END
+MTBUILDBLSOLUTE
+#@BLOCKTYPE 54a8_ptm.mtb BLK K2B SOL TYPE APEP NAME 2-hydroxyisobutyryl-lysine (R)
+# building block (residue, nucleotide, etc.)
+# RNME
+K2B
+# 
+# number of atoms, number of preceding exclusions
+# NMAT NLIN
+   18    2
+# preceding exclusions
+#ATOM                               MAE MSAE
+   -1                                 4    0    1    2    3
+    0                                 1    1
+# atoms
+#ATOM ANM  IACM MASS        CGMICGM MAE MSAE
+    1 N       6   14   -0.31000   0   4    2    3    4   17
+    2 H      21    1    0.31000   1   1    3
+    3 CA     14    3    0.00000   0   5    4    5   17   18   19
+    4 CB     15    4    0.00000   1   3    5    6   17
+    5 CG     15    4    0.00000   0   2    6    7
+    6 CD     15    4    0.00000   1   2    7    8
+    7 CE     15    4    0.00000   1   3    8    9   10
+    8 NZ      6   14   -0.31000   0   4    9   10   11   12
+    9 HZ     21    1    0.31000   1   1   10
+   10 CH     12   12    0.45000   0   4   11   12   13   15
+   11 OT2     1   16   -0.45000   1   1   12
+   12 CT1    14    3    0.26600   0   4   13   14   15   16
+   13 OI1     3   16   -0.67400   0   2   14   15
+   14 HI1    21    1    0.40800   1   0
+   15 CI2    15    4    0.00000   0   1   16
+   16 CK     16    5    0.00000   1   0
+# trailing atoms
+#ATOM ANM  IACM MASS        CGMICGM
+   17 C      12   12    0.45000   0
+   18 O       1   16   -0.45000   1
+# bonds
+#  NB
+   18
+#  IB   JB  MCB
+    1    2    2
+    1    3   21
+    3    4   27
+    3   17   27
+    4    5   27
+    5    6   27
+    6    7   27
+    7    8   21
+    8    9    2
+    8   10   10
+   10   11    5
+   10   12   27
+   12   13   18
+   12   15   27
+   13   14    1
+   15   16   27
+   17   18    5
+   17   19   10
+# bond angles
+# NBA
+   24
+#  IB   JB   KB  MCB
+   -1    1    2   32
+   -1    1    3   31
+    2    1    3   18
+    1    3    4   13
+    1    3   17   13
+    4    3   17   13
+    3    4    5   15
+    4    5    6   15
+    5    6    7   15
+    6    7    8   15
+    7    8    9   18
+    7    8   10   31
+    9    8   10   32
+    8   10   11   33
+    8   10   12   19
+   11   10   12   30
+   10   12   13   13
+   10   12   15   13
+   13   12   15   13
+   12   13   14   12
+   12   15   16   15
+    3   17   18   30
+    3   17   19   19
+   18   17   19   33
+# improper dihedrals
+# NIDA
+    6
+#  IB   JB   KB   LB  MCB
+    1   -1    3    2    1
+    3    1   17    4    2
+    9    7   10    8    1
+   11    8   12   10    1
+   12   13   15   10    2
+   17    3   19   18    1
+# dihedrals
+# NDA
+   13
+#  IB   JB   KB   LB  MCB
+   -2   -1    1    3   14
+   -1    1    3   17   43
+   -1    1    3   17   44
+    1    3    4    5   34
+    1    3   17   19   42
+    1    3   17   19   45
+    3    4    5    6   34
+    4    5    6    7   34
+    5    6    7    8   34
+    6    7    8   10   39
+    7    8   10   12   14
+    8   10   12   15   34
+   10   12   15   16   34
+# LJ exceptions
+# NEX
+    0
+#  IB   JB  MCB  NCO  IND  CON
+END
+MTBUILDBLSOLUTE
+#@BLOCKTYPE 54a8_ptm.mtb BLK KB2 SOL TYPE APEP NAME 2-hydroxyisobutyryl-lysine (S)
+# building block (residue, nucleotide, etc.)
+# RNME
+KB2
+# 
+# number of atoms, number of preceding exclusions
+# NMAT NLIN
+   18    2
+# preceding exclusions
+#ATOM                               MAE MSAE
+   -1                                 4    0    1    2    3
+    0                                 1    1
+# atoms
+#ATOM ANM  IACM MASS        CGMICGM MAE MSAE
+    1 N       6   14   -0.31000   0   4    2    3    4   17
+    2 H      21    1    0.31000   1   1    3
+    3 CA     14    3    0.00000   0   5    4    5   17   18   19
+    4 CB     15    4    0.00000   1   3    5    6   17
+    5 CG     15    4    0.00000   0   2    6    7
+    6 CD     15    4    0.00000   1   2    7    8
+    7 CE     15    4    0.00000   1   3    8    9   10
+    8 NZ      6   14   -0.31000   0   4    9   10   11   12
+    9 HZ     21    1    0.31000   1   1   10
+   10 CH     12   12    0.45000   0   4   11   12   13   15
+   11 OT2     1   16   -0.45000   1   1   12
+   12 CT1    14    3    0.26600   0   4   13   14   15   16
+   13 OI1     3   16   -0.67400   0   2   14   15
+   14 HI1    21    1    0.40800   1   0
+   15 CI2    15    4    0.00000   0   1   16
+   16 CK     16    5    0.00000   1   0
+# trailing atoms
+#ATOM ANM  IACM MASS        CGMICGM
+   17 C      12   12    0.45000   0
+   18 O       1   16   -0.45000   1
+# bonds
+#  NB
+   18
+#  IB   JB  MCB
+    1    2    2
+    1    3   21
+    3    4   27
+    3   17   27
+    4    5   27
+    5    6   27
+    6    7   27
+    7    8   21
+    8    9    2
+    8   10   10
+   10   11    5
+   10   12   27
+   12   13   18
+   12   15   27
+   13   14    1
+   15   16   27
+   17   18    5
+   17   19   10
+# bond angles
+# NBA
+   24
+#  IB   JB   KB  MCB
+   -1    1    2   32
+   -1    1    3   31
+    2    1    3   18
+    1    3    4   13
+    1    3   17   13
+    4    3   17   13
+    3    4    5   15
+    4    5    6   15
+    5    6    7   15
+    6    7    8   15
+    7    8    9   18
+    7    8   10   31
+    9    8   10   32
+    8   10   11   33
+    8   10   12   19
+   11   10   12   30
+   10   12   13   13
+   10   12   15   13
+   13   12   15   13
+   12   13   14   12
+   12   15   16   15
+    3   17   18   30
+    3   17   19   19
+   18   17   19   33
+# improper dihedrals
+# NIDA
+    6
+#  IB   JB   KB   LB  MCB
+    1   -1    3    2    1
+    3    1   17    4    2
+    9    7   10    8    1
+   11    8   12   10    1
+   10   13   15   12    2
+   17    3   19   18    1
+# dihedrals
+# NDA
+   13
+#  IB   JB   KB   LB  MCB
+   -2   -1    1    3   14
+   -1    1    3   17   43
+   -1    1    3   17   44
+    1    3    4    5   34
+    1    3   17   19   42
+    1    3   17   19   45
+    3    4    5    6   34
+    4    5    6    7   34
+    5    6    7    8   34
+    6    7    8   10   39
+    7    8   10   12   14
+    8   10   12   15   34
+   10   12   15   16   34
+# LJ exceptions
+# NEX
+    0
+#  IB   JB  MCB  NCO  IND  CON
 END
 MTBUILDBLSOLUTE
 #@BLOCKTYPE 54a8_ptm.mtb BLK HTY SOL TYPE APEP NAME 3,4-Dihydroxyphenylalanine
