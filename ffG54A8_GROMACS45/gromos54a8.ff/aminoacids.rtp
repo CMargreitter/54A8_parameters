@@ -15339,7 +15339,7 @@ CLCl2 CLCl4    gb_52
    CG    CD   CE2    NZ     gd_34   
    CD   CE2    NZ   HZ1     gd_29   
 
-; 2-hydroxyisobutyryl-lysine (R)
+; 2-hydroxybutyryl-lysine (R)
 [ K2B ]
  [ atoms ]
     N     N    -0.31000     0
@@ -15427,9 +15427,10 @@ CLCl2 CLCl4    gb_52
    CD    CE    NZ    CH     gd_39
    CE    NZ    CH   CT1     gd_14
    NZ    CH   CT1   CI2     gd_34
+   CH   CT1   OI1   HI1     gd_23
    CH   CT1   CI2    CK     gd_34
 
-; 2-hydroxyisobutyryl-lysine (S)
+; 2-hydroxybutyryl-lysine (S)
 [ KB2 ]
  [ atoms ]
     N     N    -0.31000     0
@@ -15517,7 +15518,99 @@ CLCl2 CLCl4    gb_52
    CD    CE    NZ    CH     gd_39
    CE    NZ    CH   CT1     gd_14
    NZ    CH   CT1   CI2     gd_34
+   CH   CT1   OI1   HI1     gd_23
    CH   CT1   CI2    CK     gd_34
+
+; 2-hydroxyisobutyryl-lysine
+[ KHB ]
+ [ atoms ]
+    N     N    -0.31000     0
+    H     H     0.31000     0
+   CA   CH1     0.00000     1
+   CB   CH2     0.00000     1
+   CG   CH2     0.00000     2
+   CD   CH2     0.00000     2
+   CE   CH2     0.00000     3
+   NZ     N    -0.31000     4
+   HZ     H     0.31000     4
+   CH     C     0.45000     5
+  OT2     O    -0.45000     5
+  CT1   CH0     0.26600     6
+  OI1    OA    -0.67400     6
+  HI1     H     0.40800     6
+  CI2   CH3     0.00000     7
+  CI3   CH3     0.00000     8
+    C     C     0.45000     9
+    O     O    -0.45000     9
+ [ bonds ]
+    N     H    gb_2
+    N    CA    gb_21
+   CA    CB    gb_27
+   CA     C    gb_27
+   CB    CG    gb_27
+   CG    CD    gb_27
+   CD    CE    gb_27
+   CE    NZ    gb_21
+   NZ    HZ    gb_2
+   NZ    CH    gb_10
+   CH   OT2    gb_5
+   CH   CT1    gb_27
+  CT1   OI1    gb_18
+  CT1   CI2    gb_27
+  CT1   CI3    gb_27
+  OI1   HI1    gb_1
+    C     O    gb_5
+    C    N+    gb_10
+ [ angles ]
+;  ai    aj    ak   gromos type
+   -C     N     H     ga_32
+   -C     N    CA     ga_31
+    H     N    CA     ga_18
+    N    CA    CB     ga_13
+    N    CA     C     ga_13
+   CB    CA     C     ga_13
+   CA    CB    CG     ga_15
+   CB    CG    CD     ga_15
+   CG    CD    CE     ga_15
+   CD    CE    NZ     ga_15
+   CE    NZ    HZ     ga_18
+   CE    NZ    CH     ga_31
+   HZ    NZ    CH     ga_32
+   NZ    CH   OT2     ga_33
+   NZ    CH   CT1     ga_19
+  OT2    CH   CT1     ga_30
+   CH   CT1   OI1     ga_13
+   CH   CT1   CI2     ga_13
+   CH   CT1   CI3     ga_13
+  OI1   CT1   CI2     ga_13
+  OI1   CT1   CI3     ga_13
+  CI2   CT1   CI3     ga_13
+  CT1   OI1   HI1     ga_12
+   CA     C     O     ga_30
+   CA     C    N+     ga_19
+    O     C    N+     ga_33
+ [ impropers ]
+;  ai    aj    ak    al   gromos type
+    N    -C    CA     H     gi_1
+   CA     N     C    CB     gi_2
+   HZ    CE    CH    NZ     gi_1
+  OT2    NZ   CT1    CH     gi_1
+    C    CA    N+     O     gi_1
+ [ dihedrals ]
+;  ai    aj    ak    al   gromos type
+  -CA    -C     N    CA     gd_14
+   -C     N    CA     C     gd_43
+   -C     N    CA     C     gd_44
+    N    CA    CB    CG     gd_34
+    N    CA     C    N+     gd_42
+    N    CA     C    N+     gd_45
+   CA    CB    CG    CD     gd_34
+   CB    CG    CD    CE     gd_34
+   CG    CD    CE    NZ     gd_34
+   CD    CE    NZ    CH     gd_39
+   CE    NZ    CH   CT1     gd_14
+   NZ    CH   CT1   OI1     gd_34
+   CH   CT1   OI1   HI1     gd_23
 
 ; 3,4-dihydroxyphenylalanine
 [ HTY ]

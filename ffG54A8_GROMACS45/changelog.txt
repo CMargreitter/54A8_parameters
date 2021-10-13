@@ -1,3 +1,8 @@
+CHANGE LOG 1.10.1 - 2021-10-13
+ o) K2B and KB2 (2-hydroxybutyrylation) corrected
+ o) lysine 2-hydroxyisobutyrylation added KHB (DP)
+ o) synchronized version numbering
+
 CHANGE LOG 1.10.0 - 2021-09-09
  o) lysine 2-hydroxyisobutyrylation added (K2B and KB2) (DP)
  o) synchronized version numbering
