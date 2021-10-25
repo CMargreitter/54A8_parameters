@@ -1,6 +1,6 @@
 Instructions for GROMACS versions 4.5.*, 4.6.* and later:
 -----------------------
-Copy the folder "gromos54a8.ff" to .../gromacs_installation/share/gromacs/top
+Copy the folder "gromos54a8.ff" and the file "residuetypes.dat" to .../gromacs_installation/share/gromacs/top
 
 
 
