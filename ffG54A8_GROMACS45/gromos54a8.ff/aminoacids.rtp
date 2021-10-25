@@ -15378,7 +15378,7 @@ CLCl2 CLCl4    gb_52
   OI1   HI1    gb_1
   CI2    CK    gb_27
     C     O    gb_5
-    C    N+    gb_10
+    C    +N    gb_10
  [ angles ]
 ;  ai    aj    ak   gromos type
    -C     N     H     ga_32
@@ -15403,8 +15403,8 @@ CLCl2 CLCl4    gb_52
   CT1   OI1   HI1     ga_12
   CT1   CI2    CK     ga_15
    CA     C     O     ga_30
-   CA     C    N+     ga_19
-    O     C    N+     ga_33
+   CA     C    +N     ga_19
+    O     C    +N     ga_33
  [ impropers ]
 ;  ai    aj    ak    al   gromos type
     N    -C    CA     H     gi_1
@@ -15412,15 +15412,15 @@ CLCl2 CLCl4    gb_52
    HZ    CE    CH    NZ     gi_1
   OT2    NZ   CT1    CH     gi_1
   CT1   OI1   CI2    CH     gi_2
-    C    CA    N+     O     gi_1
+    C    CA    +N     O     gi_1
  [ dihedrals ]
 ;  ai    aj    ak    al   gromos type
   -CA    -C     N    CA     gd_14
    -C     N    CA     C     gd_43
    -C     N    CA     C     gd_44
     N    CA    CB    CG     gd_34
-    N    CA     C    N+     gd_42
-    N    CA     C    N+     gd_45
+    N    CA     C    +N     gd_42
+    N    CA     C    +N     gd_45
    CA    CB    CG    CD     gd_34
    CB    CG    CD    CE     gd_34
    CG    CD    CE    NZ     gd_34
@@ -15469,7 +15469,7 @@ CLCl2 CLCl4    gb_52
   OI1   HI1    gb_1
   CI2    CK    gb_27
     C     O    gb_5
-    C    N+    gb_10
+    C    +N    gb_10
  [ angles ]
 ;  ai    aj    ak   gromos type
    -C     N     H     ga_32
@@ -15494,8 +15494,8 @@ CLCl2 CLCl4    gb_52
   CT1   OI1   HI1     ga_12
   CT1   CI2    CK     ga_15
    CA     C     O     ga_30
-   CA     C    N+     ga_19
-    O     C    N+     ga_33
+   CA     C    +N     ga_19
+    O     C    +N     ga_33
  [ impropers ]
 ;  ai    aj    ak    al   gromos type
     N    -C    CA     H     gi_1
@@ -15503,15 +15503,15 @@ CLCl2 CLCl4    gb_52
    HZ    CE    CH    NZ     gi_1
   OT2    NZ   CT1    CH     gi_1
    CH   OI1   CI2   CT1     gi_2
-    C    CA    N+     O     gi_1
+    C    CA    +N     O     gi_1
  [ dihedrals ]
 ;  ai    aj    ak    al   gromos type
   -CA    -C     N    CA     gd_14
    -C     N    CA     C     gd_43
    -C     N    CA     C     gd_44
     N    CA    CB    CG     gd_34
-    N    CA     C    N+     gd_42
-    N    CA     C    N+     gd_45
+    N    CA     C    +N     gd_42
+    N    CA     C    +N     gd_45
    CA    CB    CG    CD     gd_34
    CB    CG    CD    CE     gd_34
    CG    CD    CE    NZ     gd_34
@@ -15560,7 +15560,7 @@ CLCl2 CLCl4    gb_52
   CT1   CI3    gb_27
   OI1   HI1    gb_1
     C     O    gb_5
-    C    N+    gb_10
+    C    +N    gb_10
  [ angles ]
 ;  ai    aj    ak   gromos type
    -C     N     H     ga_32
@@ -15587,23 +15587,23 @@ CLCl2 CLCl4    gb_52
   CI2   CT1   CI3     ga_13
   CT1   OI1   HI1     ga_12
    CA     C     O     ga_30
-   CA     C    N+     ga_19
-    O     C    N+     ga_33
+   CA     C    +N     ga_19
+    O     C    +N     ga_33
  [ impropers ]
 ;  ai    aj    ak    al   gromos type
     N    -C    CA     H     gi_1
    CA     N     C    CB     gi_2
    HZ    CE    CH    NZ     gi_1
   OT2    NZ   CT1    CH     gi_1
-    C    CA    N+     O     gi_1
+    C    CA    +N     O     gi_1
  [ dihedrals ]
 ;  ai    aj    ak    al   gromos type
   -CA    -C     N    CA     gd_14
    -C     N    CA     C     gd_43
    -C     N    CA     C     gd_44
     N    CA    CB    CG     gd_34
-    N    CA     C    N+     gd_42
-    N    CA     C    N+     gd_45
+    N    CA     C    +N     gd_42
+    N    CA     C    +N     gd_45
    CA    CB    CG    CD     gd_34
    CB    CG    CD    CE     gd_34
    CG    CD    CE    NZ     gd_34
