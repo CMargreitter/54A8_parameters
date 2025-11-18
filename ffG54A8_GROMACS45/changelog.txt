@@ -1,3 +1,7 @@
+CHANGE LOG 1.10.2 - 2025-11-18
+ o) N termini for PRO-based PTMs
+ o) fixes in hydrogen database for Q4H, QH4, NNG, SOG and TOG
+
 CHANGE LOG 1.10.1 - 2021-10-13
  o) K2B and KB2 (2-hydroxybutyrylation) corrected
  o) lysine 2-hydroxyisobutyrylation added KHB (DP)
