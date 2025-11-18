@@ -402,12 +402,12 @@ NH3     3
 2	3	HD2	ND2	CG2	CB
 Q4H     3       
 1	1	H	N	-C	CA
-1	2	HD2	OD1	CG	CB
-2	3	HE22	NE2	CD2	CG
+1	2	HD1	OD1	CG	CB
+2	3	HE2	NE2	CD2	CG
 QH4     3       
 1	1	H	N	-C	CA
-1	2	HD2	OD1	CB	CB
-2	3	HE22	NE2	CD2	CG
+1	2	HD1	OD1	CG	CB
+2	3	HE2	NE2	CD2	CG
 ECA     1       
 1	1	H	N	-C	CA
 ECN    2       
@@ -439,21 +439,25 @@ RCI     3
 KAL    2       
 1	1	H	N	-C	CA
 1	1	HE	CE	OZ	CD
-NNG     4       
+NNG     6       
 1	1	H	N	-C	CA
 1	2	HO3	O3	C3	C2
 1	2	HO4	O4	C4	C3
 1	2	HO6	O6	C6	C5
-SOG     4       
+1	2	HN2	N2	C2	C1
+1	2	HD2	ND2	C1	C2
+SOG     5       
 1	1	H	N	-C	CA
 1	2	HO3	O3	C3	C2
 1	2	HO4	O4	C4	C3
 1	2	HO6	O6	C6	C5
-TOG     4       
+1	2	HN2	N2	C2	C1
+TOG     5       
 1	1	H	N	-C	CA
 1	2	HO3	O3	C3	C2
 1	2	HO4	O4	C4	C3
 1	2	HO6	O6	C6	C5
+1	2	HN2	N2	C2	C1
 F23     6       
 1	1	H	N	-C	CA
 1	2	HE3	OE3	CD1	CG
