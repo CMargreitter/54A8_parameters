@@ -23,6 +23,29 @@ CA	N	H3	ga_11
 [ dihedrals ]
 H1	N	CA	C	gd_29
 
+[ MET-NH3+ ]
+[ replace ]
+N               NL      14.0067 0.050
+CA              CH1     13.019  0.200   0
+[ add ]
+3       4       H       N       CA      C
+        H       1.008   0.250
+[ delete ]
+H
+[ bonds ]
+N       H1      gb_2
+N       H2      gb_2
+N       H3      gb_2
+[ angles ]
+H1      N       H2      ga_10
+H2      N       H3      ga_10
+H3      N       H1      ga_10
+CA      N       H1      ga_11
+CA      N       H2      ga_11
+CA      N       H3      ga_11
+[ dihedrals ]
+H1      N       CA      C       gd_29
+
 [ NH2 ]
 [ replace ]
 N		NL	14.0067	-0.66
@@ -502,3 +525,226 @@ CN1	N	ON2	HN1	gi_1
 ON2	CN1	N	CA	gd_14
 CN1	N	CA	C	gd_39
 
+[ PHH-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD2		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD2	N	H1	ga_11
+CD2	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ PHH-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD2	N	H	ga_11
+
+[ HY2-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD2		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD2	N	H1	ga_11
+CD2	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ HY2-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD2	N	H	ga_11
+
+[ PH3-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD	N	H1	ga_11
+CD	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ PH3-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD	N	H	ga_11
+
+[ P3H-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD	N	H1	ga_11
+CD	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ P3H-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD	N	H	ga_11
+
+[ HYP-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD2		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD2	N	H1	ga_11
+CD2	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ HYP-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD2	N	H	ga_11
+
+[ P5H-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD	N	H1	ga_11
+CD	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ P5H-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD	N	H	ga_11
+
+[ PH5-NH2+ ]
+[ replace ]
+N		NT	14.0067	0.100
+CA		CH1	13.019	0.200
+CD		CH2r	14.027	0.200
+[ add ]
+2	4	H	N	CA	C
+	H	1.008	0.250
+[ bonds ]
+N	H1	gb_2
+N	H2	gb_2
+[ angles ]
+H1	N	H2	ga_10
+CA	N	H1	ga_11
+CA	N	H2	ga_11
+CD	N	H1	ga_11
+CD	N	H2	ga_11
+[ dihedrals ]
+H1	N	CA	C	gd_29
+
+[ PH5-NH ]
+[ replace ]
+N		N	14.0067	-0.31
+[ add ]
+1	4	H	N	CA	C
+	H	1.008	0.31
+[ bonds ]
+N	H	gb_2
+[ angles ]
+CA	N	H	ga_11
+CD	N	H	ga_11
